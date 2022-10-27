@@ -1,0 +1,52 @@
+.paramOpacitéMenu{
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+}
+
+ul#MenuRubriques{
+	font-family: unset;
+	display: flex;
+	position: fixed;
+	margin: 0px;
+	top: 0px;
+	width: 100%;
+	height: 35px;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 10px;
+	background-color: black;
+	text-indent: 0px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#MenuRubriques li {
+	display: inline;
+	list-style-type:none;
+}
+
+#MenuRubriques a:link, #MenuRubriques a:visited {
+	text-decoration: none;
+	color: white;
+	text-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+	background-color: black;
+}
+
+#MenuRubriques a:hover {
+	text-decoration: none;
+	color: white;
+	background-color:black;
+
+}
+
+#MenuRubriques img {
+	width: 100px;
+	height: 40px;
+}
+
+@media (max-width:  540px) {
+	/*for a screen <540px, this CSS will be read*/
+		.container{
+			width: 300px;
+		}
+}

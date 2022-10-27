@@ -1,0 +1,43 @@
+footer {
+	flex-shrink: 0;
+	border-top: 1px;
+	width: 100%;
+	background: black;
+	color: white;
+	width: 1450px;
+}
+
+.contenu-footer {
+	width: 1400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 20px;
+	padding: 50px 0 100px;
+}
+
+.bloc {
+	width: 65%;
+	margin:40px;
+	margin-top: 1px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.footer-sinformer h3,
+.footer-contacts h3,
+.footer-horaires h3,
+.footer-réseaux h3 {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+.liste-infos,
+.liste-contacts,
+.liste-horaires,
+.liste-medias {
+	list-style-type: none;
+}
+

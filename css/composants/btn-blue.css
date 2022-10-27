@@ -1,0 +1,13 @@
+.btn-blue {
+	text-decoration: none;
+	background-color: whitesmoke;
+	color: black;
+	padding: 12px 32px;
+}
+
+.btn-blue:hover {
+	background-color: mistyrose;
+	transition: 0,5s;
+	color: black;
+}
+

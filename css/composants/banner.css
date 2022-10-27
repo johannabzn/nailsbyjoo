@@ -1,0 +1,15 @@
+.banner{
+	background-image: url("../../images/bannieresite.png");
+	background-size: cover;
+	background-position: center;
+	color:black;
+	padding: 100px;
+	width: 1250px;
+	margin-top: 55px;
+}
+
+.banner h1{
+	font-size: 75px;
+	text-align: right;
+}
+

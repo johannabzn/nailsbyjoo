@@ -1,0 +1,13 @@
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	flex-wrap: wrap;
+}
+
+
+@media (max-width:  540px) {
+	/*for a screen <540px, this CSS will be read*/
+		.container{
+			width: 300px;
+		}
+}
